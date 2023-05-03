@@ -25,9 +25,6 @@ var showhide = document.querySelector("ul");
             document.getElementById("readings").style.display = "none";
         }
     });
-      
-
-
 
 var imgarray = [
     "ok/t1.jpg",
