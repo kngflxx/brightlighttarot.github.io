@@ -16,7 +16,7 @@ body{
   justify-content: right;
 }
 .logo{
-  
+  cursor: pointer;
   justify-content: left;
   border-radius: 80px;
   height: 80px;
@@ -151,4 +151,7 @@ width: 75%
   display: inline-block;
   text-align: center;
   width: 10%;
+}
+#homeid{
+  display: none;
 }

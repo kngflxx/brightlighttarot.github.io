@@ -6,9 +6,28 @@ var showhide = document.querySelector("ul");
     var data = e.target.dataset;
      if(data){
         document.getElementById(data.targetId).style.display = "block";
-     }
-
+        document.querySelector(".home").style.display= "none";
+     } 
+    
     });
+
+    var showhide2 = document.querySelector(".logo");
+    showhide2.addEventListener("click", function(a){
+        document.querySelectorAll('.home').forEach(function(element){
+            element.style.display = "block";
+        });
+        var data2 = a.target.dataset;
+        if(data2){
+            document.querySelector(".home").style.display = "block";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("youtube").style.display = "none";
+            document.getElementById("decks").style.display = "none";
+            document.getElementById("readings").style.display = "none";
+        }
+    });
+      
+
+
 
 var imgarray = [
     "ok/t1.jpg",
