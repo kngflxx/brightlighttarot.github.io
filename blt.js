@@ -7,6 +7,8 @@ var showhide = document.querySelector("ul");
      if(data){
         document.getElementById(data.targetId).style.display = "block";
         document.querySelector(".home").style.display= "none";
+        document.querySelector(".logotxt").style.color = "rgba(255, 255, 255, 0.8)";
+        document.querySelector(".logotxt").style.animation = "fadeIn ease 1s";
      } 
     
     });
@@ -19,11 +21,13 @@ var showhide = document.querySelector("ul");
         var data2 = a.target.dataset;
         if(data2){
             document.querySelector(".home").style.display = "block";
+            document.querySelector(".home").style.animation = "fadeIn ease 1s";
             document.getElementById("about").style.display = "none";
             document.getElementById("youtube").style.display = "none";
             document.getElementById("decks").style.display = "none";
             document.getElementById("readings").style.display = "none";
-        }
+            document.querySelector(".logotxt").style.color = "black";
+        } 
     });
 
 var imgarray = [
