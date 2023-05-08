@@ -9,6 +9,7 @@ var showhide = document.querySelector("ul");
         document.querySelector(".home").style.display= "none";
         document.querySelector(".logotxt").style.color = "rgba(255, 255, 255, 0.8)";
         document.querySelector(".logotxt").style.animation = "fadeIn ease 1s";
+        document.querySelector(".logotxt").style.textShadow = "rgb(255, 255, 255) .5px 0 2px";
      } 
     
     });
@@ -27,6 +28,9 @@ var showhide = document.querySelector("ul");
             document.getElementById("decks").style.display = "none";
             document.getElementById("readings").style.display = "none";
             document.querySelector(".logotxt").style.color = "black";
+            document.querySelector(".logotxt").style.textShadow = "none";
+    
+    
         } 
     });
 

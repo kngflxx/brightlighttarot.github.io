@@ -14,10 +14,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
-
     <title>Bright Light Tarot</title>
 </head>
+
 <body>
+    <!--/////////////HEADER///////////////////////////////////////////////////////////////////////////////////////////////-->
+
 <div class="header">
     <img data-target-id="homeid" class="logo" src="logoblt.jpg"><p class="logotxt">BRIGHT LIGHT TAROT</p>
     <ul>
@@ -28,19 +30,51 @@
     </ul>
 </div>
 
-<div class="home" id="homeid" style="font-size:35px;margin-top:15%; animation:fadeIn ease 1s;"><h1>BRIGHT LIGHT TAROT</h1>
-</div>
-<div class="page" id="youtube">
-    <iframe width="600" height="340" src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUvgTeDtP9aVsuskJKtRCZJQ" frameborder="0" allowfullscreen></iframe>
-    <h2>LATEST VIDEO</h2>
+<!--////////////HOME////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="home" id="homeid" style="font-size:35px;margin-top:15%; animation:fadeIn ease 1s; ">
+    <h1><i>BRIGHT LIGHT TAROT</i></h1>
 </div>
 
-<div class="page" id="about"><div class="about" >the about about stuff div, PAC to be coded to also show meanings</div> 
-    <div class="PAC">
-        <img class="pacpic" width="238px" height="400px"; src="" id="picture" alt="Pick a Card">
-        <button onclick="PAC()" name="pacbtn" class="pacbtn1">Pick a Card!</button>
+<!--//////////YOUTUBE//////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="page" id="youtube">
+    <div class="ytcont">
+    <div class="yttext"><h2><i>LATEST VIDEO  🡆🡆🡆  </i></h2>
+        <h2><i><a style="text-decoration:none;color:white;" href="https://www.youtube.com/@brightlighttarot4776/">LINK TO CHANNEL</a></i></h2>
     </div>
+    <iframe width="600" height="340" src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUvgTeDtP9aVsuskJKtRCZJQ" frameborder="0" allowfullscreen></iframe>
 </div>
+</div>
+
+<!--//////////////////ABOUT//////////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="page" id="about">
+    <div class="about">
+        <div class="abouttxt">
+        <p>
+            <i>Thank you for taking the time to visit my website!</i><br>
+            I’m so glad and thankful that the Universe has brought you across my path and me across yours.<br>
+            I love that I am able to use my gift to bring you messages of love, healing and strength with special emphasis on self love and personal growth.<br>
+            I appreciate each of you greatly and I’m grateful for your support.<br>
+            Whether you are here for a personal reading, to donate or just to learn more about My channel, please feel free to browse the site.<br>
+            <i>Welcome!</i> 
+        </p>
+        <div class="socials">
+            <a href="https://www.instagram.com/brightlighttarot/"><img class="social" src="ig.png" style="padding-right:20px;"></a>
+           <a href="https://www.facebook.com/profile.php?id=100055411265112"><img style="height:50px;padding-left:20px;" src="fb.png"></a>
+        </div>
+    </div>
+        <div class="PAC">
+            <img class="pacpic" width="238px" height="400px"; src="" id="picture" alt="Pick a Card">
+            <button onclick="PAC()" name="pacbtn" class="pacbtn1">Pick a Card!</button>
+        </div>
+    </div> 
+    
+   
+</div>
+
+<!--//////////////DECKS//////////////////////////////////////////////////////////////////////////////////////////////-->
 
 <div class="page" id="decks">
     <h2>Decks Used</h2>
@@ -79,6 +113,8 @@
         <b>Awaken Tarot</b>   -   Ryve<br><br>
         <b>Answers Oracle</b>   -   Delaluna<br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 </div>
+
+<!--//////////////READINGS//////////////////////////////////////////////////////////////////////////////////////////////-->
 
 <div class="page" id="readings">
     <div class="desc"><h3>
@@ -146,12 +182,29 @@
         I appreciate you so very much and I send you peace, light and love! Hope to hear from you soon, so I can get started on your reading.<br><br>
         
         Sincerely,<br> 
-        Bright Light✴<br><br><br><br><br>
+        Bright Light✴<br><br>
     
-    </h3></div>
+    </h3>
+    <div class="contact">
+        <h1><i>CONTACT</i></h1>
+        <form size=100 class=form action="https://formsubmit.co/illuminatedone1111@gmail.com" method="POST">
+            <div class="name">
+                
+                <input class="namebox" type="text" name="name" placeholder="NAME" required></div>
+            <div class="email">
+    
+                <input class="emailbox" type="email" name="email" placeholder= "EMAIL" required></div>
+                <div class="text">
+                    <textarea class="textbox" placeholder="EXAMPLE READING REQUEST: Tell me what my future spouse is like and will my career be successful?" name="message" rows="10" required></textarea>
+                </div>
+            <div class="button" style="padding-bottom: 3%;">
+                <button type="submit">Send</button></div>
+       </form>
+     </div>
+</div>
    
 </div>
+<!--//////////////////END//////////////////////////////////////////////////////////////////////////////////////////-->
     <script src="blt.js"></script>
-
 </body>
 </html>
