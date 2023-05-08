@@ -142,16 +142,22 @@ iframe{
   margin: auto;
 }
 .desc{
-text-align:  left;
-width: 100%;
+text-align:  center;
+width: 98%;
 overflow: scroll;
 height: 490px;
 -ms-overflow-style: none;
 scrollbar-width: none;
+margin: 1%;
+font-size: 15px;
+line-height: 1.5;
 }
 .desc::-webkit-scrollbar { /* WebKit */
   width: 0;
   height: 0;
+}
+ i{
+  color:rgba(255, 221, 0, 0.777);
 }
 .PAC{
   display: inline-block;
@@ -163,23 +169,27 @@ scrollbar-width: none;
  text-align: center;
  display: inline;
  margin-right: 20px;
- 
+
  align-items: center;
  height: 99%;
  width: 40%;
- padding-bottom: 20%;
+ padding-bottom: 10%;
 }
-
+#decks::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
 #decks{
   padding-bottom: 2%;
   text-align: center;
-  background-image: url("ppr.jpg");
   background-size: cover;
   overflow: scroll;
   height: 85%;
   position:fixed;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-b{
+b {
   color:rgba(255, 221, 0, 0.777);
   padding-right: 300px;
 }
