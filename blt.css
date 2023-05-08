@@ -119,13 +119,13 @@ h2{
     text-align: center;
 }
 iframe{
-    padding: 3%;
+    padding: 5px;
 }
 //////////////////////////////////////////////////////////////////////////////////////////
 #readings {
   text-align: center;
-  margin-left: 4%;
-  width: 100%;  
+  width: 100%; 
+
 }
 .pacpic{
   border-radius: 20px;
@@ -142,9 +142,16 @@ iframe{
   margin: auto;
 }
 .desc{
-text-align: center;
-display: inline-block;
-width: 75%;
+text-align:  left;
+width: 100%;
+overflow: scroll;
+height: 490px;
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+.desc::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 .PAC{
   display: inline-block;
