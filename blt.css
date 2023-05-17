@@ -13,13 +13,13 @@
   font-family: 'Cinzel', serif;
   color: rgba(255, 255, 255, 0.8);
   height: auto;
-  background-size: 200%;
+  background-size: auto;
   width: 99%;
   text-align: center;
   justify-content: center;
   text-shadow: rgb(255, 255, 255) .5px 0 2px;
   background-image: url("bgmob.jpg");
-  background-repeat: no-repeat;
+  
 }}
 @media only screen and (max-width:720px){.logotxt{
  display: none !important;
