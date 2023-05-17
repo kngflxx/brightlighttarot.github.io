@@ -134,7 +134,7 @@
 @media only screen and (max-width:720px){.page{
   margin-top: 1%;
   display: none;
-  width: 97%; 
+  width: 98%; 
   height: auto;
   background-color: #000000b9;
   color:white; 
@@ -326,7 +326,10 @@ margin: 0;
   flex-direction: column;
   text-align: right;
   font-size: 10px;
+  width: 95%;
+  margin-right: 100px;
 }}
+
 #decks::-webkit-scrollbar { /* WebKit */
   width: 7px;
   height: 5px;
