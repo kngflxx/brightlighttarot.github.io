@@ -329,7 +329,9 @@ margin: 0;
   width: 95%;
   margin-right: 100px;
 }}
-
+@media only screen and (max-width:720px){#decks::-webkit-scrollbar { /* WebKit */
+  display: none;
+}}
 #decks::-webkit-scrollbar { /* WebKit */
   width: 7px;
   height: 5px;
@@ -348,10 +350,11 @@ margin: 0;
   overflow: scroll;
   height: 85%;
   position:fixed;
+  width: 99%;
 }
 @media only screen and (max-width:720px){#decks{
   text-align: left;
-  margin-right: 6%;
+  width: 96%;
 }}
 
 b {
